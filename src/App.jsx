@@ -5,7 +5,7 @@ import './App.css'
 function App() {
 const name = 'MAXXXXI'
 const x = 20;
-const y = 40;
+const y = 450;
 const names = ['Brad','Mary','Joy','Sara'];
   return (
     <>
@@ -14,11 +14,16 @@ const names = ['Brad','Mary','Joy','Sara'];
           <p>
             the sum of {x} and {y} is {x + y};
           </p>
-          <ol>
+          {/* <ol>
             {names.map((name,index) => {
               <li key={index}>{name}</li>
             })}
-          </ol>
+          </ol> */}
+          <ul>
+            {names.map((name,index) => {
+              <li key={index}> {name} </li>
+            })}
+          </ul>
     </>
   )
 }
