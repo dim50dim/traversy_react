@@ -8,7 +8,7 @@ export default function App() {
   return(
     <>
     <Navbar/>
-    <Hero title='TEST title'/>
+    <Hero title='TEST title' subtitle='thi' />
     </>
   )
 };
