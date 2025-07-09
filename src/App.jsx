@@ -8,7 +8,7 @@ export default function App() {
   return(
     <>
   <Navbar/>
-  <Hero/>
+  <Hero title='test title' subtitle='subtitle' />
     {/* <!-- Hero --> */}
    
 
