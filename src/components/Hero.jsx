@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Hero({title,subtitle}) {
+function Hero({title='Become a React Dev',subtitle='Move on'}) {
   return (
     <div>
          <section className="bg-indigo-700 py-20 mb-4">
