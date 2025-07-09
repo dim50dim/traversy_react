@@ -1,3 +1,4 @@
+import Navbar from "./components/Navbar";
 
 
 
@@ -5,7 +6,7 @@ export default function App() {
 
   return(
     <>
-  
+  <Navbar/>
 
     {/* <!-- Hero --> */}
     <section className="bg-indigo-700 py-20 mb-4">
