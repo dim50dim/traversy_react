@@ -12,7 +12,9 @@ const JobListings = () => {
         Browse Jobs
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {jobs.map((job,))}
+            {jobs.map((job) => (
+
+            ))}
           {/* <!-- Job Listing 1 --> */}
           <div className="bg-white rounded-xl shadow-md relative">
             <div className="p-4">
