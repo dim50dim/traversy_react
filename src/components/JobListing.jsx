@@ -21,8 +21,8 @@ const JobListing = ({job}) => {
               {description}
               </div>
 
-                     <button onClick className="text-indigo-500 mb-5 hover:text-indigo-600"
-                     {showFullDescription ? 'Less' : 'More'}
+                     <button onClick={() => setShowFullDescription((c) => !c)} className="text-indigo-500 mb-5 hover:text-indigo-600"
+                    //  {showFullDescription ? 'Less' : 'More'}
                      >Show more </button>
               <h3 className="text-indigo-500 mb-2"> {job.salary} </h3>
       
