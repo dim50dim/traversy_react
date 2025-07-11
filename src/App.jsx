@@ -15,14 +15,6 @@ export default function App() {
   <HomeCards/>
   <JobListings/>
   <ViewAllJobs/>
-    {/* <!-- Hero --> */}
-   
-
-    {/* <!-- Developers and Employers --> */}
-
-
- 
-
     </>
   )
 };
