@@ -11,4 +11,4 @@ const MainLaoyt = () => {
   )
 }
 
-export default MainLaoyt
+export default MainLaoyt;
