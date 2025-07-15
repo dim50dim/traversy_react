@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import { FaExclamationTriangle } from 'react-icons/fa'
 const NotFoundPage = () => {
   return (
     <div>
          <section className="text-center flex flex-col justify-center items-center h-96">
-      
+      <FaExclamationTriangle
       <h1 className="text-6xl font-bold mb-4">404 Not Found</h1>
       <p className="text-xl mb-5">This page does not exist</p>
       <Link
