@@ -12,14 +12,12 @@ const JobListings = ({isHome = false}) => {
              const res = await fetch('http://localhost:8000/jobs');
         const data = await res.json();
         setJobs(data);
-      }catch{
-        console.log('Error fetching data');
+      }catch (error){
+        console.log('Error fetching data',error);
         
       }finally{
          setLoading(false)
       }
-       
-      
          }
      fetchJobs();
     },[])
