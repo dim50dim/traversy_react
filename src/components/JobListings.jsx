@@ -1,7 +1,7 @@
 import React from 'react'
 import jobs from "../assets/jobs.json"
 import JobListing from './JobListing'
-const JobListings = () => {
+const JobListings = ({isHome = fasle}) => {
    const recentJobs = jobs.slice(0,3);
     
   return (

@@ -8,7 +8,9 @@ const MainLayout = () => {
         <h1>My Job Site</h1>
       </header>
       <main>
+             <Navbar/>
         <Outlet />
+   
       </main>
     </div>
   );
