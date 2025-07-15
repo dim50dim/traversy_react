@@ -1,6 +1,8 @@
 import React from 'react'
-import jobs from "../assets/jobs.json"
+
 import JobListing from './JobListing'
+
+
 const JobListings = ({isHome = false}) => {
    const jobListings = isHome ? jobs.slice(0,3) : jobs
     
