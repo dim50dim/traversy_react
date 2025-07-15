@@ -2,7 +2,7 @@ import React from 'react'
 import jobs from "../assets/jobs.json"
 import JobListing from './JobListing'
 const JobListings = ({isHome = fasle}) => {
-   const recentJobs = jobs.slice(0,3);
+   const jobListings = isHome ? jobs.slice(0,3) : jobs
     
   return (
     <div>
@@ -13,7 +13,7 @@ const JobListings = ({isHome = fasle}) => {
         Browse Jobs
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {recentJobs.map((job) => (
+            {jobListings.map((job) => (
             <JobListing key={job.id} job= {job} />
             ))}
         
