@@ -15,7 +15,7 @@ function Navbar() {
             </NavLink>
             <div className='md:ml-auto'>
               <div className='flex space-x-2'>
-                <NavLink to='/home'>
+                <NavLink to='/' className={({isActive}) => isActive ? '' : ''}>
                   Home
                 </NavLink>
                 <NavLink to='/jobs'>
