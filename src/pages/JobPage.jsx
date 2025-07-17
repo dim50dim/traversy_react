@@ -28,5 +28,7 @@ const JobPage = () => {
    )
 };
 
-
+const res = await => async({params}) => {
+    const res = await fetch(`api/jobs/${params.id}`); 
+}
 export default JobPage
