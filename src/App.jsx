@@ -1,5 +1,5 @@
 
-import{Route, createBrowserRouter,RouterProvider, createRoutesFromElements} from 'react-router-dom';
+// import{Route, createBrowserRouter,RouterProvider, createRoutesFromElements} from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import MainLayout from './layouts/MainLayout';
 import JobsPage from './pages/JobsPage';

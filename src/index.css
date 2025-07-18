@@ -75,6 +75,7 @@ button:focus-visible {
 .container-1 div {
   border: 1p white solid;
   padding: 10px;
+  background-color: aliceblue;
 }
 .box-1{
   flex:1;
